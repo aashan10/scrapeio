@@ -1,0 +1,25 @@
+{
+  "name": "aashan10/scrapeio",
+  "description": "A tool for your daily web scraping.",
+  "authors": [
+    {
+      "name": "Ashan Ghimire",
+      "email": "ashanghimire10@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Scrapeio\\": "src/"
+    }
+  },
+  "require": {
+    "ext-libxml": "*",
+    "ext-dom": "*",
+    "guzzlehttp/guzzle": "^7.4",
+    "illuminate/collections": "^9.15"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^6.1",
+    "phpunit/phpunit": "^9.5"
+  }
+}
